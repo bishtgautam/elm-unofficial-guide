@@ -1,4 +1,4 @@
-Custom DATM forcing
-===================
+Creating custom DATM forcing
+============================
 
 Notes coming soon

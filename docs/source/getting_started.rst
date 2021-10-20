@@ -1,9 +1,8 @@
 Getting started
 ===============
 
-
-These notes assume that you are attempting to run the model on one of
-the E3SM-supported machine such as Cori, Compy, Anvil, Chrysalis.
+Let's get a ELM simulation going and we will get into details about
+certain setting (e.g. ``-res`` and ``compset``) in a later section.
 
 1. Get the code 
 
@@ -13,7 +12,8 @@ the E3SM-supported machine such as Cori, Compy, Anvil, Chrysalis.
    cd e3sm
    git submodule update --init --recursive
 
-2. Create a new case for a specified resolution ``-res <>`` and compset ``-compset <>``
+2. Create a new case for a specified resolution ``-res <>`` and compset ``-compset <>`` on
+   an E3SM-supported machine such as Cori, Compy, Anvil, Chrysalis, etc.
    
 .. code-block:: bash
    
@@ -25,6 +25,14 @@ the E3SM-supported machine such as Cori, Compy, Anvil, Chrysalis.
    
    ./create_newcase -case $PWD/IELM.f09_f09 -res f09_f09 -compset IELM
 
+On can additionally provide information to ``create_newcase`` regarding the machine
+on which the case is being created via ``--machine`` argument. On E3SM supported machine,
+``create_newcase`` can automatically detect the machine on which the case is being created.
+However, certain machines support two machine configurations such as Cori-hawell and Cori-KNL
+and the user can choose of the machine configurations by ``--machine cori-knl`` or
+``--machine cori-haswell``.
+   
+   
 3. Make any modifications to the case
 
 .. code-block:: bash
