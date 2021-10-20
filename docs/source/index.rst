@@ -13,6 +13,10 @@ Contents
 .. toctree::
 
    getting_started
+   namelist
+   custom_elm_grid
+   custom_datm_forcing
+   unsupported_machine
 
 
 
