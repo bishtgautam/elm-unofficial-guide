@@ -25,12 +25,12 @@ certain setting (e.g. ``-res`` and ``compset``) in a later section.
    
    ./create_newcase -case $PWD/IELM.f09_f09 -res f09_f09 -compset IELM
 
-On can additionally provide information to ``create_newcase`` regarding the machine
+One can additionally provide information to ``create_newcase`` regarding the machine
 on which the case is being created via ``--machine`` argument. On E3SM supported machine,
-``create_newcase`` can automatically detect the machine on which the case is being created.
-However, certain machines support two machine configurations such as Cori-hawell and Cori-KNL
-and the user can choose of the machine configurations by ``--machine cori-knl`` or
-``--machine cori-haswell``.
+``create_newcase`` automatically detects the machine on which the case is being created.
+However, certain machines support two machine configurations (e.g. Cori supports cori-hawell
+and cori-knl configurations) and a user can choose one of the machine configurations
+by ``--machine cori-knl`` or ``--machine cori-haswell``.
    
    
 3. Make any modifications to the case
