@@ -12,7 +12,7 @@ Contents
 
 .. toctree::
 
-   chap01
+   getting_started
 
 
 
