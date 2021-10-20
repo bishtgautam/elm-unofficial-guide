@@ -11,7 +11,7 @@ the E3SM-supported machine such as Cori, Compy, Anvil, Chrysalis.
 
    git clone https://github.com/E3SM-Project/E3SM
    cd e3sm
-   git submodule updaate --init --recursive
+   git submodule update --init --recursive
 
 2. Create a new case for a specified resolution ``-res <>`` and compset ``-compset <>``
    
