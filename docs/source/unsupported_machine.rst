@@ -43,9 +43,11 @@ Configuring your Mac for ELM
 - Create a ``.cime`` folder in home directory
 
 .. code-block:: bash
+
    mkdir ~/.cime
 
 - Modify and copy ``config_compilers.xml`` and ``config_machines.xml`` from ``your-E3SM-dir/cime/config/e3sm/machines/userdefined_laptop_template/`` to ``~/.cime/``
+
    - Find examples of modification at https://gist.github.com/donghuix/434a73a2adfbf8816cb13d0e326bb93e
 
 5. Run test case
