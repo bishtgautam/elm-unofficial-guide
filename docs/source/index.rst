@@ -4,6 +4,8 @@ Welcome to the unofficial E3SM Land Model (ELM) guide
 The `Energy Exascaale Earth System Model`_ (E3SM) is a fully coupled Earth System Model
 supported by the U.S. Department of Energy (DOE), aims to tackle the grand challenge of
 actionable predictions of Earth system variability and change [Leung2020]_.
+The E3SM Land Model (ELM) is the land component of the E3SM and this is an
+**UNOFFICIAL** user guide for ELM.
 
 .. _Energy Exascaale Earth System Model: https://e3sm.org/
 
