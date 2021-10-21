@@ -1,7 +1,10 @@
 Running ELM on your machine
 ===========================
 
+.. _mac:
+
 Configuring your Mac for ELM
+----------------------------
 
 1. Xcode
 
@@ -94,4 +97,7 @@ Configuring your Mac for ELM
 
    # ./preview_run to see the command to run the case
 
+.. _win:
+
 Configuring your Windows for ELM: Coming soon.
+----------------------------------------------
