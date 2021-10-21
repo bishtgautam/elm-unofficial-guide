@@ -1,8 +1,10 @@
 Getting started
 ===============
 
-Let's get a ELM simulation going and we will get into details about
-certain setting (e.g. ``-res`` and ``compset``) in a later section.
+The main steps involved in running ELM are (i) creating a case,
+(ii) setting up the case, (iii) building the case, and (iv) running
+the case. Let's get a ELM simulation going and we will get into details about
+certain settings (e.g. ``-res`` and ``compset``) later.
 
 1. Get the code 
 
@@ -33,7 +35,7 @@ and cori-knl configurations) and a user can choose one of the machine configurat
 by ``--machine cori-knl`` or ``--machine cori-haswell``.
    
    
-3. Make any modifications to the case
+3. Make any modifications to the case and setup the case
 
 .. code-block:: bash
 
