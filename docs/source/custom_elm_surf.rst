@@ -5,7 +5,7 @@ Creating custome ELM surface data
 
 -  Create `SCRIP <https://earthsystemmodeling.org/docs/release/ESMF_8_0_1/ESMF_refdoc/node3.html#SECTION03028000000000000000>`_ file for you new surface grid. 
 
--  If you already have the domain file for your grid, you can convert it to SCRIP with the `MATLAB script < https://github.com/donghuix/Setup-E3SM-Mac/blob/master/matlab-scripts-to-process-inputs/convert_domain_to_SCRIPgrid.m>`_.
+-  If you already have the domain file for your grid, you can convert it to SCRIP with the `MATLAB < https://github.com/donghuix/Setup-E3SM-Mac/blob/master/matlab-scripts-to-process-inputs/convert_domain_to_SCRIPgrid.m>`_ script.
 
 2. Mapping file
 
