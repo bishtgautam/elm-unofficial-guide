@@ -56,6 +56,7 @@ Currently, this workflow only works on NERSC cori.
 - Create a namelist for mksurfdata_map, and replace the mapping file that generated in the following example.
 
 .. code-block:: bash 
+
    # On NERSC use /global/cfs/cdirs/e3sm/inputdata/lnd/clm2/rawdata for mksrf_*
 
    >cat northamericax4v1pg2-2010.namelist
