@@ -1,6 +1,8 @@
 Creating custome ELM surface data
 ===========================
 
+Currently, this workflow only works on NERSC cori. 
+
 1. SCRIP mesh
 
 -  Create `SCRIP <https://earthsystemmodeling.org/docs/release/ESMF_8_0_1/ESMF_refdoc/node3.html#SECTION03028000000000000000>`_ file for you new surface grid. 
