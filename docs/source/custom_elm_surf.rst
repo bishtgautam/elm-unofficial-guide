@@ -128,7 +128,7 @@ Currently, this workflow only works on NERSC cori.
 
 - If a land use time series is needed, need to provide land use source `mksrf_fdynuse` and filename `fdyndat`. For example, 
 
-   .. code-block:: bash 
+.. code-block:: bash 
 
-   mksrf_fdynuse  = 'northamericax4v1pg2.landuse_timeseries_hist_simyr1850-2015.txt'
-   fdyndat        = 'landuse.timeseries_northamericax4v1pg2_hist_simyr1850-2015_c210112.nc'
+mksrf_fdynuse  = 'northamericax4v1pg2.landuse_timeseries_hist_simyr1850-2015.txt'
+fdyndat        = 'landuse.timeseries_northamericax4v1pg2_hist_simyr1850-2015_c210112.nc'
